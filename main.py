@@ -65,7 +65,6 @@ def main(message):
 		return
 #	print("خخخخخخخخخخ")
 	ko = (bot.reply_to(message, "LODING ...⌛").message_id)
-	time.sleep(7)
 	ee = bot.download_file(bot.get_file(message.document.file_id).file_path)
 	with open("combo.txt", "wb") as w:
 			w.write(ee)
