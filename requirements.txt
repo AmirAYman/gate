@@ -8,3 +8,4 @@ flagz
 pycountry
 PyJWT
 requests_toolbelt
+colorama
