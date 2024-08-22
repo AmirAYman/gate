@@ -8,13 +8,7 @@ flagz
 pycountry
 PyJWT
 requests_toolbelt
-os
 time
-re
-types
 colorama
 Fore
-telebot
-requests
-bs4
 BeautifulSoup
