@@ -26,7 +26,7 @@ def start(message):
 𝐈 𝐀𝐌 𝐀 𝐁𝐎𝐓 𝐂𝐇𝐄𝐂𝐊𝐈𝐍𝐆 𝐏𝐀𝐘𝐌𝐄𝐍𝐓 𝐆𝐀𝐓𝐄𝐖𝐀𝐘𝐒 𝐌𝐀𝐍𝐔𝐀𝐋 𝐂𝐇𝐄𝐂𝐊 𝐀𝐍𝐃 𝐅𝐈𝐋𝐄𝐒
 CMD ➜ /m + url </b>''',
 reply_markup=keyboard)
-@bot.message_handler(func=lambda message: message.text.lower().startswith('.m') or message.text.lower().startswith('/m')) 
+@bot.message_handler(func=lambda message: message.text.lower().startswith('.se') or message.text.lower().startswith('/se')) 
 
 def respond_to_vbv(message):
 	if str(message.chat.id) not in admin:
