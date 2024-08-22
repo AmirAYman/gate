@@ -8,7 +8,3 @@ flagz
 pycountry
 PyJWT
 requests_toolbelt
-time
-colorama
-Fore
-BeautifulSoup
