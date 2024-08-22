@@ -36,7 +36,7 @@ def respond_to_vbv(message):
 	match = ''.join(iy)
 	mm = match[4:]
 	bot.reply_to(message, f'LODIND...⏳')
-	a = requests.get(f"http://157.10.53.104:8080/gatev2?url={cc}").json()
+	a = requests.get(f"http://157.10.53.104:8080/gatev2?url={mm}").json()
 	if 'error' in a:
 		bot.reply_to(message,"ERROR SITE ")
 	else:
@@ -47,7 +47,7 @@ def respond_to_vbv(message):
 		vbv = a['vbv']
 		
 		bot.reply_to(message, f'''<b>
-[☆]𝗦𝗜𝗧𝗘 : {cc}
+[☆]𝗦𝗜𝗧𝗘 : {mm}
 [☆]𝗣𝗔𝗬𝗠𝗘𝗡𝗧 : {p}
 [☆]𝗖𝗔𝗣𝗧𝗖𝗛𝗔 : {c}
 [☆]𝗖𝗟𝗢𝗨𝗗𝗙𝗟𝗔𝗥𝗘 : {cl}
