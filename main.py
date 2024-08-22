@@ -92,6 +92,7 @@ def main(message):
 [♡]𝗕𝗬 :『@Mero_221』
 [♡]𝗕𝗬 :『@x8xt8』
 </b> - - - - - - - - - - - - - - - - - ''')
+					time.sleep(15)
 				
 print("BOT IS ON")
 #while True:
