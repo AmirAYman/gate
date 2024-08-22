@@ -8,3 +8,14 @@ flagz
 pycountry
 PyJWT
 requests_toolbelt
+random
+os
+time
+re
+types
+colorama
+Fore
+telebot
+requests
+bs4
+BeautifulSoup
