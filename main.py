@@ -90,7 +90,7 @@ def main(message):
 [☆]𝗩𝗕𝗩 : {vbv}
 [♡]𝗕𝗬 :『@Mero_221』
 </b> - - - - - - - - - - - - - - - - - ''')
-					time.sleep(15)
+					
 				
 print("BOT IS ON")
 #while True:
