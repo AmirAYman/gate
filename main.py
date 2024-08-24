@@ -36,7 +36,7 @@ def respond_to_vbv(message):
 	match = ''.join(iy)
 	mm = match[4:]
 	bot.reply_to(message, f'LODIND...⏳')
-	a = requests.get(f"http://157.10.53.104:8080/gatev2?url={mm}").json()
+	a = requests.get(f"https://c3709057-96ff-4ee4-812a-b1919e4cb7b4-00-j0vrcl45dqst.pike.replit.dev/gatev2?url={mm}").json()
 	if 'error' in a:
 		bot.reply_to(message,"ERROR SITE ")
 	else:
@@ -54,7 +54,6 @@ def respond_to_vbv(message):
 [☆]𝗔𝗨𝗧𝗛 : {au}
 [☆]𝗩𝗕𝗩 : {vbv}
 [♡]𝗕𝗬 :『@Mero_221』
-[♡]𝗕𝗬 :『@x8xt8』
 </b> - - - - - - - - - - - - - - - - - ''')
 
 
@@ -72,7 +71,7 @@ def main(message):
 			lino = file.readlines()
 			total = len(lino)
 			for cc in lino:
-				a = requests.get(f"http://157.10.53.104:8080/gatev2?url={cc}").json()
+				a = requests.get(f"https://c3709057-96ff-4ee4-812a-b1919e4cb7b4-00-j0vrcl45dqst.pike.replit.dev/gatev2?url={cc}").json()
 				if 'error' in a:
 					print("ERROR SITE")
 				else:
@@ -90,7 +89,6 @@ def main(message):
 [☆]𝗔𝗨𝗧𝗛 : {au}
 [☆]𝗩𝗕𝗩 : {vbv}
 [♡]𝗕𝗬 :『@Mero_221』
-[♡]𝗕𝗬 :『@x8xt8』
 </b> - - - - - - - - - - - - - - - - - ''')
 					time.sleep(15)
 				
